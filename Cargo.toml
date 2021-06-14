@@ -1,0 +1,13 @@
+[package]
+name = "userbot-rust"
+version = "0.1.0"
+authors = ["McDull-GitHub <30206217+McDull-GitHub@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.11.3"
+grammers-client = "0.3.0"
+grammers-session = "0.3.0"
+tokio = { version = "1.5.0", features = ["rt", "signal"] }
